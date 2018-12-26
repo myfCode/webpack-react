@@ -22,4 +22,4 @@ npm i uglifyjs-webpack-plugin html-webpack-plugin --save-dev
 
 
 
-redux-thunk
+redux-thunk  babel-plugin-transform-runtime

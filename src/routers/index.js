@@ -23,9 +23,12 @@ class App extends Component{
     }
     render(){
         return(
-            <BrowserRouter basename='/'>
-                {/* <Route path='/' component={Counter}></Route> */}
-                <Route path='/user' component={User}></Route>
+            <BrowserRouter >
+                <Switch>
+                        <Route path='/' exact component={Counter}></Route>
+                        <Route path='/user' component={User}></Route>
+                </Switch>
+                
             </BrowserRouter>
         )
     }
