@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 // const img = require('./images/tang.jpg')
-// import imgSrc from './images/tang.jpg'
+import imgSrc from './images/tang.jpg'
 
 import './user.css';
 
@@ -14,7 +14,7 @@ class User extends Component {
         return (
             <div>
                 this is User Component
-                {/* <img src={imgSrc} /> */}
+                <img src={imgSrc} />
                 <div className={`bg-image`}></div>
             </div>
         )

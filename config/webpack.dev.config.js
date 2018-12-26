@@ -10,8 +10,8 @@ module.exports = {
     //     venxxxder: ['react', 'react-dom'],
     //     bundleyyy: path.resolve(__dirname, '../src/main.js')
     // },
-    entry: ['react', path.resolve(__dirname, '../src/main.js')],
-    // entry: path.resolve(__dirname, '../src/main.js'),
+    // entry: ['react', path.resolve(__dirname, '../src/main.js')],
+    entry: path.resolve(__dirname, '../src/main.js'),
     output: {
         filename: "js/[name]-[id]-[hash:8].js",
         path: path.resolve(__dirname, '../dist')
