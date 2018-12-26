@@ -17,3 +17,9 @@ npm i babel-plugin-transform-decorators-legacy --save-dev
 npm i style-loader css-loader file-loader url-loader postcss-loader --save-dev
 
 npm i uglifyjs-webpack-plugin html-webpack-plugin --save-dev
+
+
+
+
+
+redux-thunk
